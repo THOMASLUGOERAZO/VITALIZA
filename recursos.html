@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vitaliza — Recursos</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-badge">V</div>
+      <div>
+        <div style="font-weight:800">VITALIZA</div>
+        <div class="small">Centro de terapias</div>
+      </div>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span class="material-icons">menu</span>
+    </div>
+
+    <nav id="nav-menu">
+      <a href="index.html"><span class="material-icons">home</span> Inicio</a>
+
+      <div class="dropdown">
+        <a href="sobre.html"><span class="material-icons">info</span> Sobre nosotros</a>
+        <div class="dropdown-content">
+          <a href="historia.html"><span class="material-icons">history_edu</span> Nuestra historia</a>
+          <a href="equipo.html"><span class="material-icons">group</span> Nuestro equipo</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="servicios.html"><span class="material-icons">psychology</span> Servicios</a>
+        <div class="dropdown-content">
+          <a href="#"><span class="material-icons">self_improvement</span> Terapia individual</a>
+          <a href="#"><span class="material-icons">child_care</span> Terapia infantil</a>
+          <a href="#"><span class="material-icons">favorite</span> Terapia de pareja</a>
+          <a href="#"><span class="material-icons">family_restroom</span> Terapia familiar</a>
+        </div>
+      </div>
+
+      <a href="recursos.html" class="active"><span class="material-icons">library_books</span> Recursos</a>
+      <a href="testimonios.html"><span class="material-icons">stars</span> Testimonios</a>
+      <a class="cta" href="contacto.html"><span class="material-icons">event_available</span> Agendar cita</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner -->
+    <section class="banner-recursos">
+      <img src="IMAGEN_RECURSOS.jpg" alt="Recursos Vitaliza">
+      <div class="overlay"></div>
+      <div class="banner-texto">
+        <h1>Recursos para tu bienestar</h1>
+        <p>Artículos, guías y ejercicios para cuidar tu mente y emociones día a día.</p>
+      </div>
+    </section>
+
+    <!-- Cajas de recursos -->
+    <section class="recursos-lista">
+      <div class="card recurso">
+        <span class="material-icons icono-recurso">article</span>
+        <h3>Guía de manejo del estrés</h3>
+        <p>Aprende estrategias prácticas para reducir la ansiedad y encontrar equilibrio mental.</p>
+        <a href="#" class="btn btn-primary">Leer más</a>
+      </div>
+
+      <div class="card recurso">
+        <span class="material-icons icono-recurso">self_improvement</span>
+        <h3>Mindfulness y atención plena</h3>
+        <p>Descubre cómo el mindfulness puede ayudarte a vivir con mayor calma y claridad.</p>
+        <a href="#" class="btn btn-primary">Explorar</a>
+      </div>
+
+      <div class="card recurso">
+        <span class="material-icons icono-recurso">favorite</span>
+        <h3>Relaciones saludables</h3>
+        <p>Fortalece la comunicación y los vínculos afectivos en tus relaciones personales.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+
+      <div class="card recurso">
+        <span class="material-icons icono-recurso">spa</span>
+        <h3>Relajación y bienestar</h3>
+        <p>Técnicas de respiración y meditación guiada para aliviar tensiones del día a día.</p>
+        <a href="#" class="btn btn-primary">Leer guía</a>
+      </div>
+
+      <div class="card recurso">
+        <span class="material-icons icono-recurso">psychology</span>
+        <h3>Autoconocimiento</h3>
+        <p>Explora ejercicios para conectar contigo mismo y fortalecer tu autoconfianza.</p>
+        <a href="#" class="btn btn-primary">Descubrir</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <strong>Vitaliza</strong> • Centro de terapias</div>
+    <div class="small">Diseño responsive • Código entregable</div>
+  </footer>
+</body>
+</html>
